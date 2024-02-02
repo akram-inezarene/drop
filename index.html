@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAWA Services </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+</head>
+<body>
+    <div class="header" id="head">
+        <div class="logo">
+            <img src="imgs/logopng.png" alt="">
+        </div>
+        <div class="navbar" id="navbar">
+            <ul class="navigationlinks">
+                <li>
+                    <a href="#home" titre="home">Home</a>
+                </li>
+                <div onmouseover="show()" onmouseout="hid()" class="serviceList">
+                    <li titre="services">
+                        <a href="">Services</a> 
+    
+                    </li>
+                    <ul class="ourservice" id="ourservice">
+                        <li><a href="direction.php?do=marketing" titre="sponsor">Degital Marketing</a> </li>
+                        <li><a href="direction.php?do=website" titre="web">Web Site</a></li>
+                        <li><a href="direction.php?do=appmobile" titre="App">App Mobile</a></li>
+                        <li><a href="direction.php?do=design" titre="design">Design</a></li>
+                        <li><a href="direction.php?do=store" titre="store">Online Store</a></li>
+                        <li><a href="direction.php?do=hosting" titre="hosting">Hosting</a></li>
+    
+                    </ul>
+                </div>
+    
+                <li>
+                    <a href="#team" titre="team">Team</a>
+                </li>
+                <li>
+                    <a href="#about" titre="abouttitle">About US</a>
+                </li>
+                <li>
+                    <a href="#footer" titre="contact">Contact US</a>
+                </li>
+                
+            </ul>
+           
+        </div>
+        <div class="selectLang">
+                
+            <select id="languages" onchange="mylanguage()">
+                <option value="en"><a href="?mylang=en"> English</a></option>
+                <option value="ar"><a href="?mylang=ar">العربية</a> </option>
+                <option value="fr"><a href="?mylang=fr">French</a> </option>
+            </select>
+        </div>
+    </div>
+    <div class="front" id="home">
+        
+        <div class="main">
+            <div class="front-text">
+                <h1 class="left">
+                    Advanced <br>
+                    Technical Solutions
+                </h1>
+                <p class="left">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                </p>
+                <button class="slide-up">
+                    Contact us
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class=" partner " id="partner">
+        <div class="title">
+            <h1 titre="services">Partner</h1>
+        </div>
+        <div class="Scontent">
+            <div class="swiper mySwiper1">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide swiper-slide1 ">
+                    <a target="_blank" href="https://www.lg.com/dz"><img src="imgs/lg.png" alt=""></a>
+                    
+                  </div>
+                  
+                  <div class="swiper-slide swiper-slide1 ">
+                    <a target="_blank" href="https://www.khalijistore.com/"><img src="imgs/partner1.png" alt=""></a>
+                    
+                  </div>
+                  <div class="swiper-slide swiper-slide1 ">
+                    <a target="_blank" href="https://1khalijstore.com/"><img src="imgs/partner2.png" alt=""></a>
+                    
+                  </div>
+                  <div class="swiper-slide swiper-slide1 ">
+                    <a target="_blank" href="https://prohurbs.com/"><img src="imgs/partner3.png" alt=""></a>
+                    
+                  </div>
+                  <div class="swiper-slide swiper-slide1 ">
+                    <a target="_blank" href="https://www.storesonline.fr/"> <img src="imgs/partner4.png" alt=""></a>
+                   
+                  </div>
+                  <div class="swiper-slide swiper-slide1 ">
+                    <a target="_blank" href="https://www.facebook.com/dekkicheacademie"><img src="imgs/partner5.png" alt=""></a>
+                    
+                  </div>
+                  <div class="swiper-slide swiper-slide1 ">
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100073560375235"><img src="imgs/partner6.png" alt=""></a>
+                    
+                  </div>
+                  <div class="swiper-slide swiper-slide1 ">
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100083313183748">
+                      <img src="imgs/partner7.png" alt="">
+                    </a>
+                    
+                  </div>
+                  <div class="swiper-slide swiper-slide1 slide-up">
+                    <a target="_blank" href="https://www.facebook.com/wissamexcellence"><img src="imgs/partner8.png" alt=""></a>
+                    
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+              <div class=" swiper-button-next1"><img src="imgs/r.png" alt=""></div>
+                <div class=" swiper-button-prev1"><img src="imgs/l.png" alt=""></div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="services " id="services">
+        <div class="title">
+            <h1 titre="services">Services</h1>
+        </div>
+        <div class="parent row">
+            <div class="item right ">
+                <a href="direction.php?do=marketing">
+                    <div class="picture">
+                        <div>
+                            <img src="imgs/sponsor.png" alt="">
+                            <h3 titre="sponsor">Degital Marketing</h3>    
+                        </div>
+                        <p>Facebook, Instagram, Snap...</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item right">
+                <a href="direction.php?do=website">
+                    <div class="picture">
+                        <div>
+                            <img src="imgs/web.png" alt="">
+                            <h3 titre="web">Web Site</h3>
+                        </div>
+                        
+                        <p>Responsive web site ...</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item right">
+                <a href="direction.php?do=appmobile">
+                    <div class="picture">
+                        <div>
+                            <img src="imgs/app.png" alt="">
+                            <h3 titre="App">APP Mobile</h3>
+                        </div>
+                        
+                        <p>IOS, Android ...</p>
+                    </div>
+                    
+                </a>
+            </div>
+            <div class="item right">
+                <a href="direction.php?do=design">
+                    <div class="picture">
+                        <div>
+                            <img src="imgs/design.png" alt="">
+                            <h3 titre="design">Design</h3>
+                        </div>
+                        
+                        <p>Logo, Posts,...</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item right">
+                <a href="direction.php?do=store">
+                    <div class="picture">
+                        <div>
+                            <img src="imgs/store.png" alt="">
+                            <h3 titre="store">Online Store</h3>
+                           
+                        </div>
+                         <p>Store,...</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item right">
+                <a href="direction.php?do=hosting">
+                    <div class="picture">
+                        <div>
+                            <img src="imgs/hosting.png" alt="">
+                            <h3 titre="hosting">Hosting</h3>
+                           
+                        </div>
+                         <p>Best offre hosting</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="why">
+        
+            <div class="txt slide-up">
+                <div>
+                    <h1>
+                        Why Kawa service
+                    </h1>
+                    <p>
+                        Kawa Service delivers different levels of services and solutions depending upon the nature and situation of our customers. However, the following is a list of common reasons why Perfect Touch will be your best choice...        </p>    
+                </div>
+                
+            </div>
+    </div>
+
+   
+    <div class=" services members" id="team">
+        <div class="title">
+            <h1 titre="services">Our Team</h1>
+        </div>
+
+    <div class="Scontent">
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                <div class="member">
+                    <img class="memberpic" src="imgs/oussama.png" alt="">
+                    <div class="member-info">
+                        <h5>H.Oussama</h5>
+                        <p titre="gerant">SEO </p>
+                    <div class="social">
+                            <a href="http://instagram.com/oussama.harrar.31"  target="_blank"> <i class="bi bi-instagram"></i> </a>
+                            <a target="_blank" href="http://facebook.com/oussamaharrarads"> <i class="bi bi-facebook"></i> </a>
+                            <a href="https://twitter.com/Oussama_harrar?s=09" target="_blank"> <i class="bi bi-twitter"></i></a>
+                            <a href="https://dz.linkedin.com/in/oussama-harrar-709333184" target="_blank" > <i class="bi bi-linkedin"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+                
+                <div class="swiper-slide">
+                <div class="member">
+                    <img class="memberpic" src="imgs/djilali.jpg" alt="">
+                    <div class="member-info">
+                        <h5>D.Djilali</h5>
+                        <p titre="devweb">Developpeur Web</p>
+                        <div class="social">
+                            <a href="https://www.instagram.com/djilalidernane/" target="_blank"> <i class="bi bi-instagram"></i> </a>
+                            <a href="https://www.facebook.com/dernane.djilali1" target="_blank"> <i class="bi bi-facebook"></i> </a>
+                            <a href="https://twitter.com/DDernane?t=Q61XgUCoUT5pg49wlI7ZxQ&s=09" target="_blank"> <i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/djilali-dernane-8b1984218" target="_blank"> <i class="bi bi-linkedin"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+                <div class="swiper-slide">
+                <div class="member">
+                    <img class="memberpic" src="imgs/noussaiba.jpg" alt="">
+                    <div class="member-info">
+                        <h5>Noussaiba</h5>
+                        <p titre="designer">Designer</p>
+                        <div class="social">
+                            <a href="https://instagram.com/noussaiba_infographe?igshid=YmMyMTA2M2Y=" target="_blank"> <i class="bi bi-instagram"></i> </a>
+                            <a href="https://www.facebook.com/profile.php?id=100013549053419" target="_blank"> <i class="bi bi-facebook"></i> </a>
+                            <a href="https://twitter.com/Boukh1Noussaiba?t=aCnexJl-o4UYgTjYlFgB0w&s=08" target="_blank"> <i class="bi bi-twitter"></i> </a>
+                            <a href="https://www.linkedin.com/in/noussaiba-infographe-032190201" target="_blank"> <i class="bi bi-linkedin"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+                <div class="swiper-slide">
+                    <div class="member">
+                        <img class="memberpic" src="imgs/haroun.jpg" alt="">
+                        <div class="member-info">
+                            <h5>M.Haroun</h5>
+                            <p titre="gerant">Backend Developer </p>
+                            <div class="social">
+                                <a href="http://instagram.com/oussama.harrar.31"  target="_blank"> <i class="bi bi-instagram"></i> </a>
+                                <a target="_blank" href="http://facebook.com/oussamaharrarads"> <i class="bi bi-facebook"></i> </a>
+                                <a href="https://twitter.com/Oussama_harrar?s=09" target="_blank"> <i class="bi bi-twitter"></i></a>
+                                <a href="https://dz.linkedin.com/in/oussama-harrar-709333184" target="_blank" > <i class="bi bi-linkedin"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="contactus">
+        <div class="title">
+            <h1 titre="services">Contact Us</h1>
+            <h5>How can we help you?</h5>
+            <p>Drop us a line and we will get back to you as soon as possible, usually within 24 hours.</p>
+        </div>
+       
+        <form action="" class="">
+            <div class="">
+                <label for="">First Name:</label>
+                <input type="text">
+            </div>
+            <div class="">
+                <label for="">Last Name:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Company Name:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">E-mail:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Subject:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Phone Number:</label>
+                <input type="text">
+            </div>
+            <div class="msg">
+                <label for="">Message:</label>
+                <textarea name="" id=""  rows="8"></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <h1>KAWA SERVICE</h1>
+        <div class="info">
+            <div>
+                <h3>Our Profile</h3>
+                <p>Advanced Technical Solutions <br>
+                    And more...</p>
+            </div>
+            <div>
+                <h3>Get Support</h3>
+                <p>contact@kawa-service.com</p>
+                <a> <i class="bi bi-telephone-fill"></i> +213 552288157  </a>
+            </div>
+            <div>
+                <h3>Find us</h3>
+                <p>7374 Zain Ad Dar Al Misri, <br>
+                    Riyadh 14913 Saudi Arabia </p>
+                <a href=""><i class="bi bi-geo-alt-fill"></i> Ru hamza 82 baraki 16027 , alger </a>
+            </div>
+        </div>
+        <div class="kawa-social">
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+        <div>
+            <p>Copyright © 2022 Perfect Touch All rights reserved..</p>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper1", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    
+    loop: true,
+    breakpoints:{
+        100: {
+          slidesPerView: 2,
+        },
+        600: {
+          slidesPerView: 3,
+        }
+      },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+
+    navigation: {
+      nextEl: ".swiper-button-next1",
+      prevEl: ".swiper-button-prev1",
+    },
+  });
+  var swiper2 = new Swiper(".mySwiper2", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints:{
+        100: {
+          slidesPerView: 2,
+        },
+        600: {
+          slidesPerView: 3,
+        }
+      },
+  });
+</script>
+<script>
+    var slideUp = {
+        distance: '50px',
+        origin: 'bottom',
+        opacity: null,
+        delay: 150,
+        reset: true,
+        opacity:0,
+        duration: 600
+    };
+    var slideright = {
+        distance: '20px',
+        origin: 'right',
+        opacity: null,
+        delay: 150,
+        reset: true,
+        opacity:0,
+        duration: 800
+    };
+    var slideleft = {
+        distance: '20px',
+        origin: 'left',
+        opacity: null,
+        delay: 150,
+        reset: true,
+        opacity:0,
+        duration: 800
+    };
+    ScrollReveal().reveal('.left',slideright);
+    ScrollReveal().reveal('.right',slideleft);
+    ScrollReveal().reveal('.slide-up',slideUp);
+</script>
+
+</body>
+</html>
