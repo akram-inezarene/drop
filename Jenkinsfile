@@ -26,7 +26,7 @@ pipeline {
             steps {
                // git branch: 'main', url: 'https://github.com/akram-inezarene/Prometheus-project.git'
 
-                sh "mvn clean package -DskipTests-true"
+                sh "mvn clean package -DskipTests=true"
             }
         }
         stage ('Unit test'){
